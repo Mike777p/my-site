@@ -1,6 +1,11 @@
+import NavBar from "../Components/NavBar"
+import TechnicalHeader from "../Components/TechnicalHeader"
+
 const TechnicalPage = () => {
-    return (
-        <h1>Technical Page!</h1>
+    return (<>
+        <NavBar/>
+        <TechnicalHeader/>
+    </>
     )
 }
 
