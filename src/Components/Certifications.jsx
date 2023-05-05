@@ -8,9 +8,9 @@ const Certifications = () => {
 const settings = {
   dots: true,
   infinite: true,
-  speed: 500,
+  speed: 400,
   slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToScroll: 2,
   autoplay: true,
   autoplaySpeed: 4000,
   responsive: [
