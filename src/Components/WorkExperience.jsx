@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaMapMarkerAlt } from 'react-icons/fa';
-import { MdWork } from 'react-icons/md';
 import Wrapper from "../Assets/Wrappers/WorkExperienceWrapper";
 import LondonEnglishVetnam23 from "../Assets/Images/LondonEnglishVetnam23.jpg"
 import DTP from "../Assets/Images/DTP.jpeg"
@@ -30,7 +29,7 @@ const JobExperience = () => {
         "During the pandemic I was traveling and decided to stay in South East Asia and teach English. I taught in classrooms and online to students of all ages. It was an amazing experience I'll never forget",
     },
     {
-        title: 'JLR (Jaguar Land Rover) - Team Manager',
+        title: 'Team Manager',
         company: 'AA (Automobile Association)',
         logo: JLR,
         startDate: '2017',
@@ -64,7 +63,8 @@ const JobExperience = () => {
 
   return (
     <Wrapper>
-        <h2>Work Experience</h2>
+      <div className='work-experience-container'>
+      <h2>Employment</h2>
       <div className="timeline">
         {jobData.map((job, index) => (
           <div key={index} className="timeline-item" onClick={() => handleClick(job)}>
@@ -91,6 +91,7 @@ const JobExperience = () => {
             <div className="timeline-item-separator"></div>
           </div>
         ))}
+      </div>
       </div>
     </Wrapper>
   );

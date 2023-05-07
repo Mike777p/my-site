@@ -10,7 +10,7 @@ const skillsData = [
   { name: 'Node.js', score: 3 },
   { name: 'Express.js', score: 3 },
   { name: 'Jest', score: 3 },
-  { name: 'Agile Project Management', score: 3 },
+  { name: 'Agile PM', score: 3 },
   { name: 'SQL & No-SQL', score: 3 },
   { name: 'MongoDB', score: 3 },
   { name: 'Postgres', score: 2 },
@@ -27,6 +27,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <Wrapper>
+      <div className='skills-container'>
     <div className="skills">
       <h2>Skills</h2>
       <div className="skills-grid">
@@ -43,6 +44,7 @@ const Skills = () => {
         ))}
       </div>
     </div>
+      </div>
     </Wrapper>
   )
 };

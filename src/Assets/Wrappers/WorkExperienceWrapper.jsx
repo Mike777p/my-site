@@ -2,9 +2,19 @@ import styled from 'styled-components';
 
 
 const Wrapper = styled.main`
-  max-width: 1000px;
+.work-experience-container {
+  background-color: #0F2557;
+  width: 100%;
+  display: block;
+  color: white;
+  // max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+}
+
+h3 {
+  color: black;
+}
 
   h2 {
     text-align: center;

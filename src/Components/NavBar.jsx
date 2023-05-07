@@ -7,8 +7,19 @@ const NavBar = () => {
     <Wrapper>
     <nav className="navbar">
       <div className="logo">LOGO</div>
+      <h1>Michael Perryment</h1>
       <h1>Junior Software Engineer</h1>
       <ul className="nav-links">
+      <li>
+          <a href="#">Software Engineer</a>
+          <ul className="dropdown">
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Certifications</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Achievements</a></li>
+          </ul>
+        </li>
         <li>
           <a href="#">Travel</a>
           <ul className="dropdown">
@@ -25,16 +36,7 @@ const NavBar = () => {
             <li><a href="#">Page</a></li>
           </ul>
         </li>
-        <li>
-          <a href="#">Software Engineer</a>
-          <ul className="dropdown">
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Certifications</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Achievements</a></li>
-          </ul>
-        </li>
+       
       </ul>
     </nav>
     </Wrapper>

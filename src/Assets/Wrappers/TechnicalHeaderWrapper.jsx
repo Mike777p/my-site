@@ -1,14 +1,25 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.main`
+
+.Background-container {
+  background-color: #0F2557;
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 20px; // Adjust this value to position the content below the navbar
+}
+
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+
+
 
   .profile-section {
     display: flex;
     align-items: center;
-    background-image: url('your-background-image.jpg'); // Replace with the path to your background image
+    background-image: url('your-background-image.jpg'); 
+    // background-color: #0F2557;
     background-size: cover;
     background-position: center;
     padding: 40px;
@@ -16,7 +27,7 @@ const Wrapper = styled.main`
 
   .profile-pic {
     width: 150px;
-    height: 150px;
+    height: 170px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 40px;
@@ -24,6 +35,7 @@ const Wrapper = styled.main`
 
   .profile-text {
     max-width: 600px;
+    color: white;
   }
 
   button {

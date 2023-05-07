@@ -2,11 +2,18 @@ import styled from 'styled-components'
 
 const Wrapper = styled.main`
 .navbar {
+  position: fixed; // Change from 'sticky' to 'fixed'
+  top: 0; // Keep this line
+  left: 0; // Add this line
+  right: 0; // Add this line
+  z-index: 1000; // Add this line
+  background-color: #150734;
+  display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #f8f9fa;
+  color: white;
 }
 
 .nav-links {
@@ -22,11 +29,16 @@ const Wrapper = styled.main`
 
 .nav-links a {
   display: block;
-  padding: 0 10px;
+  padding: 0 30px;
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
   font-weight: 500;
 }
+
+.nav-links a:hover { 
+  color: green;
+}
+
 
 .dropdown {
   display: none;

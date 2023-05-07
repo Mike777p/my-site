@@ -2,16 +2,29 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.main`
+.certifications-container {
+  background-color: #0F2557;
+  width: 100%;
+  display: block;
+  color: white;
+}
+
 .certifications {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
+    // background-color: #3778c2;
   }
   
   .certifications h2 {
     text-align: center;
     margin-bottom: 20px;
   }
+
+  .certifications :hover { 
+    cursor: pointer;
+  }
+  
   
   .certification img {
     width: 100%;

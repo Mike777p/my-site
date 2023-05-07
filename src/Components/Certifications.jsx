@@ -10,7 +10,7 @@ const settings = {
   infinite: true,
   speed: 400,
   slidesToShow: 3,
-  slidesToScroll: 2,
+  slidesToScroll: 3,
   autoplay: true,
   autoplaySpeed: 4000,
   responsive: [
@@ -42,6 +42,7 @@ const settings = {
 
   return (
     <Wrapper>
+      <div className="certifications-container">
       <div className="certifications">
         <h2>IT Certifications</h2>
         <Slider {...settings}>
@@ -58,6 +59,7 @@ const settings = {
           <img src={modalImage} alt="modal certification" />
         </div>
       )}
+      </div>
     </Wrapper>
   );
 };

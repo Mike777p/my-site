@@ -28,24 +28,27 @@ const projects = [
   
     return (
       <Wrapper>
-        <div className="project-tiles-container">
+        <div className='project-tiles-container'>
+        <div className="project-tiles-surround">
+          <h2>Projects</h2>
           {projects.map((project, index) => (
             <div
-              key={index}
-              className="project-tile"
+            key={index}
+            className="project-tile"
               onMouseEnter={() => {}}
               onClick={() => handleClick(project.link)}
             >
               <div
                 className="project-tile-inner"
                 style={{ backgroundImage: `url(${project.image})` }}
-              ></div>
+                ></div>
               <div className="project-tile-description">
                 <p>{project.description}</p>
               </div>
             </div>
           ))}
         </div>
+          </div>
       </Wrapper>
     );
   };

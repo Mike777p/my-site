@@ -33,6 +33,7 @@ const TechnicalHeader = () => {
 
   return (
     <Wrapper>
+      <div className='Background-container'>
     <div className="profile-section">
       <img src={main} alt="Profile" className="profile-pic" />
       <div className="profile-text">
@@ -43,6 +44,7 @@ const TechnicalHeader = () => {
         </button>
       </div>
     </div>
+      </div>
     </Wrapper>
   );
 };

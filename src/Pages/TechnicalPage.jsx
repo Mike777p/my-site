@@ -4,6 +4,7 @@ import Skills from "../Components/Skills"
 import Certifications from "../Components/Certifications"
 import JobExperience from "../Components/WorkExperience"
 import ProjectTiles from "../Components/ProjectTiles"
+import Footer from "../Components/Footer"
 
 const TechnicalPage = () => {
     return (<>
@@ -13,6 +14,7 @@ const TechnicalPage = () => {
         <Certifications/>
         <JobExperience/>
         <ProjectTiles/>
+        <Footer/>
     </>
     )
 }
