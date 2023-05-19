@@ -27,7 +27,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <Wrapper>
-      <div className='skills-container'>
+      <div className='skills-container' id="skills">
     <div className="skills">
       <h2>Skills</h2>
       <div className="skills-grid">

@@ -3,23 +3,39 @@ import styled from 'styled-components';
 
 const Wrapper = styled.main`
 
+
+  h2 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+  }
+
 .project-tiles-container {
-  background-color: #0F2557;
+  background-color: #0F2547;
   width: 100%;
   height: 100%;
   display: block;
   justify-content: center;
-  padding: 20px;
+  padding: 40px;
+  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
+  padding-bottom: 65px;
+  // transform: skewY(2deg);
+  // transform-origin: top left;
+}
+  background-image: url(https://i.makeagif.com/media/2-27-2015/jv6xB8.gif)
 }
 .project-tiles-surround {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    max-width: 1000px;
+    gap: 200px;
+    max-width: 1300px;
     margin: auto;
     padding: 20px;
     color: white;
     // background-color: #0F2557;
+    // transform: skewY(2deg);
+    // transform-origin: top left;
   }
 
   .project-tile {
@@ -38,7 +54,7 @@ const Wrapper = styled.main`
     right: 0;
     background-size: cover;
     background-position: center;
-    background-color: rgba(245, 245, 220, 1);
+    background-color: white;
     transition: transform 0.5s, opacity 0.5s;
     z-index: 1;
   }
@@ -55,7 +71,7 @@ const Wrapper = styled.main`
     bottom: 0;
     right: 0;
     padding: 10px;
-    background: rgba(245, 245, 220, 0.95);
+    background: white;
     color: black;
     backface-visibility: hidden;
     // transform: rotateY(-180deg);

@@ -19,10 +19,12 @@ color: white;
 .social-icon {
   cursor: pointer;
   transition: transform 0.3s;
+  margin: 0 15px;
 }
 
 .social-icon:hover {
-  transform: scale(1.2);
+  color: green;
+  transform: translateY(-5px);
 }
 
 .footer-links {
@@ -40,6 +42,7 @@ color: white;
 
 .footer-link:hover {
   transform: translateY(-5px);
+  color: grey;
 }
   `
   export default Wrapper

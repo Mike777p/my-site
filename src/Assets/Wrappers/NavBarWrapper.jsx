@@ -14,6 +14,18 @@ const Wrapper = styled.main`
   align-items: center;
   padding: 10px;
   color: white;
+  background-image: url(https://i.makeagif.com/media/2-27-2015/jv6xB8.gif)
+}
+
+ a {
+  color: white;
+}
+a:visited {
+  color: lightgrey;
+}
+
+a:hover {
+  color: green;
 }
 
 .nav-links {

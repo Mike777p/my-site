@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.main`
+  height: 100vh;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -8,6 +9,8 @@ const Wrapper = styled.main`
   background-color: cream;
   padding: 10px;
   align-items: center;
+  background-color: #0F2557;
+  color: white;
 
   .info {
     height: 250px;
@@ -19,6 +22,17 @@ const Wrapper = styled.main`
   .main-img {
     height: ;
     width: 200px;
+    margin-top: 30px;
+  }
+
+  .btn:hover {
+    color:green;
+    transform: translateY(-5px);
+  }
+
+  .btn {
+    color: white;
+    margin: 0 30px;
   }
 
   .btn-hero1 {

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Wrapper from "../Assets/Wrappers/CertificationWrapper";
 import Slider from 'react-slick';
 
+
 const Certifications = () => {
 
 const settings = {
@@ -42,7 +43,11 @@ const settings = {
 
   return (
     <Wrapper>
-      <div className="certifications-container">
+        {/* <video className='video-background' autoPlay loop muted>
+          <source src={Matrix_Raining_Code} type='video/mp4' />
+          Your browser does not support the video tag.
+        </video> */}
+    <div className="certifications-container" id="certifications">
       <div className="certifications">
         <h2>IT Certifications</h2>
         <Slider {...settings}>
@@ -59,8 +64,8 @@ const settings = {
           <img src={modalImage} alt="modal certification" />
         </div>
       )}
-      </div>
-    </Wrapper>
+    </div>
+  </Wrapper>
   );
 };
 

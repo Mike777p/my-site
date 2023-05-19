@@ -34,16 +34,16 @@ const TechnicalHeader = () => {
   return (
     <Wrapper>
       <div className='Background-container'>
-    <div className="profile-section">
-      <img src={main} alt="Profile" className="profile-pic" />
-      <div className="profile-text">
-        <h2>Michael Perryment</h2>
-        <p>{showMore ? textFull : textPreview}</p>
-        <button onClick={() => setShowMore(!showMore)}>
-          {showMore ? 'Less' : 'More'}
-        </button>
-      </div>
-    </div>
+        <div className="profile-section">
+          <img src={main} alt="Profile" className="profile-pic" />
+          <div className="profile-text">
+            <h2>Michael Perryment</h2>
+            <p>{showMore ? textFull : textPreview}</p>
+            <button onClick={() => setShowMore(!showMore)}>
+              {showMore ? 'Less' : 'More'}
+            </button>
+          </div>
+        </div>
       </div>
     </Wrapper>
   );

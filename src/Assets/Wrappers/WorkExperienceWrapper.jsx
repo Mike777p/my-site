@@ -10,6 +10,8 @@ const Wrapper = styled.main`
   // max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
+  border-bottom: 1px solid #ffffff;
+  background-image: url(https://i.makeagif.com/media/2-27-2015/jv6xB8.gif)
 }
 
 h3 {

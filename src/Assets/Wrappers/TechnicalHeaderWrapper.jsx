@@ -4,9 +4,15 @@ const Wrapper = styled.main`
 
 .Background-container {
   background-color: #0F2557;
+  z-index: 0;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  padding-left: 100px;
+  // background-image: url(https://i.makeagif.com/media/5-05-2014/tm0Zfv.gif)
+  transform: skewY(-2deg);
+  transform-origin: top left;
+  border-bottom: 1px solid #ffffff;
 }
 
   display: flex;
@@ -16,9 +22,11 @@ const Wrapper = styled.main`
 
 
   .profile-section {
+    transform: skewY(2deg);
+    transform-origin: top left;
+    z-index:0;
     display: flex;
     align-items: center;
-    background-image: url('your-background-image.jpg'); 
     // background-color: #0F2557;
     background-size: cover;
     background-position: center;
@@ -30,7 +38,7 @@ const Wrapper = styled.main`
     height: 170px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 40px;
+    margin-right: 100px;
   }
 
   .profile-text {

@@ -1,12 +1,15 @@
 import Wrapper from "../Assets/Wrappers/LandingPageWrapper"
 import { Link } from "react-router-dom";
 import main from "../Assets/Images/main.jpg"
+import NavBar from "../Components/NavBar";
+import { ToastContainer } from 'react-toastify';
+
 
 const LandingPage = () => {
     return (
       <Wrapper>
-        <nav>
-        </nav>
+        <NavBar/>
+        <ToastContainer/>
         <div className="container page">
           {/* Info */}
           <div className="info">

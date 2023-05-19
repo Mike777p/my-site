@@ -8,6 +8,8 @@ const Wrapper = styled.main`
   background-color: #0F2557;
   color: white;
   padding-bottom: 50px;
+  border-bottom: 1px solid #ffffff;
+  background-image: url(https://i.makeagif.com/media/2-27-2015/jv6xB8.gif)
 }
 
 .skills {
